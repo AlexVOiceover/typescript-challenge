@@ -1,6 +1,9 @@
 {
 	"scripts": {
-		"build": "tsc --watch"
+		"build": "tsc --watch",
+		"ex1": "node --watch build/src/1.js",
+		"ex2": "node --watch build/src/2.js",
+		"ex3": "node --watch build/src/3.js"
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.10",
